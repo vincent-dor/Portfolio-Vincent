@@ -4,7 +4,7 @@ const SkillsList = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("/data/skills.json")
+    fetch("data/skills.json")
       .then((response) => response.json())
       .then((data) => setSkills(data))
       .catch((error) => console.error("Erreur de chargement du fichier JSON:", error));
