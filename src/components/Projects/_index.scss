@@ -1,0 +1,16 @@
+.projects {
+  margin: 75px auto;
+  padding: 20px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: var(--secondary-background-color);
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2 {
+    margin-top: 1rem;
+  }
+}
