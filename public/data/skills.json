@@ -1,15 +1,15 @@
 [
-  { "name": "HTML", "icon": "../assets/logo/logoHtml.svg", "iconDark": "../assets/logo/logoHtml.svg", "link": "https://exemple.com/html" },
-  { "name": "CSS", "icon": "../assets/logo/logoCss.svg", "iconDark": "../assets/logo/logoCss.svg", "link": "https://exemple.com/css" },
-  { "name": "JavaScript", "icon": "../assets/logo/logoJavascript.svg", "iconDark": "../assets/logo/logoJavascript.svg", "link": "https://exemple.com/javascript" },
-  { "name": "React", "icon": "../assets/logo/logoReact.svg", "iconDark": "../assets/logo/logoReact.svg", "link": "https://exemple.com/react" },
-  { "name": "Next.js", "icon": "../assets/logo/logoNext.svg", "iconDark": "../assets/logo/logoNextDark.svg", "link": "https://exemple.com/vuejs" },
-  { "name": "Sass", "icon": "../assets/logo/logoSass.svg", "iconDark": "../assets/logo/logoSass.svg", "link": "https://exemple.com/sass" },
-  { "name": "Redux", "icon": "../assets/logo/logoRedux.svg", "iconDark": "../assets/logo/logoRedux.svg", "link": "https://exemple.com/redux" },
-  { "name": "Node.js", "icon": "../assets/logo/logoNode.svg", "iconDark": "../assets/logo/logoNode.svg", "link": "https://exemple.com/nodejs" },
-  { "name": "Git", "icon": "../assets/logo/logoGit.svg", "iconDark": "../assets/logo/logoGit.svg", "link": "https://exemple.com/git" },
-  { "name": "GitHub", "icon": "../assets/logo/logoGithub.svg", "iconDark": "../assets/logo/logoGithub.svg", "link": "https://exemple.com/github" },
-  { "name": "Figma", "icon": "../assets/logo/logoFigma.svg", "iconDark": "../assets/logo/logoFigma.svg", "link": "https://exemple.com/figma" },
-  { "name": "Notion", "icon": "../assets/logo/logoNotion.svg", "iconDark": "../assets/logo/logoNotion.svg", "link": "https://exemple.com/notion" },
-  { "name": "Agile", "icon": "../assets/logo/logoAgile.svg", "iconDark": "../assets/logo/logoAgile.svg", "link": "https://exemple.com/agile" }
+  { "name": "HTML", "icon": "assets/logo/logoHtml.svg", "iconDark": "logo/logoHtml.svg", "link": "https://exemple.com/html" },
+  { "name": "CSS", "icon": "assets/logo/logoCss.svg", "iconDark": "logo/logoCss.svg", "link": "https://exemple.com/css" },
+  { "name": "JavaScript", "icon": "assets/logo/logoJavascript.svg", "iconDark": "logo/logoJavascript.svg", "link": "https://exemple.com/javascript" },
+  { "name": "React", "icon": "assets/logo/logoReact.svg", "iconDark": "logo/logoReact.svg", "link": "https://exemple.com/react" },
+  { "name": "Next.js", "icon": "assets/logo/logoNext.svg", "iconDark": "logo/logoNextDark.svg", "link": "https://exemple.com/vuejs" },
+  { "name": "Sass", "icon": "assets/logo/logoSass.svg", "iconDark": "logo/logoSass.svg", "link": "https://exemple.com/sass" },
+  { "name": "Redux", "icon": "assets/logo/logoRedux.svg", "iconDark": "logo/logoRedux.svg", "link": "https://exemple.com/redux" },
+  { "name": "Node.js", "icon": "assets/logo/logoNode.svg", "iconDark": "logo/logoNode.svg", "link": "https://exemple.com/nodejs" },
+  { "name": "Git", "icon": "assets/logo/logoGit.svg", "iconDark": "logo/logoGit.svg", "link": "https://exemple.com/git" },
+  { "name": "GitHub", "icon": "assets/logo/logoGithub.svg", "iconDark": "logo/logoGithub.svg", "link": "https://exemple.com/github" },
+  { "name": "Figma", "icon": "assets/logo/logoFigma.svg", "iconDark": "logo/logoFigma.svg", "link": "https://exemple.com/figma" },
+  { "name": "Notion", "icon": "assets/logo/logoNotion.svg", "iconDark": "logo/logoNotion.svg", "link": "https://exemple.com/notion" },
+  { "name": "Agile", "icon": "assets/logo/logoAgile.svg", "iconDark": "logo/logoAgile.svg", "link": "https://exemple.com/agile" }
 ]
