@@ -5,7 +5,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Erreur de chargement du fichier JSON:", error));
