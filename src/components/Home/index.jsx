@@ -6,7 +6,7 @@ const Home = () => {
   const [isSlidingOut, setIsSlidingOut] = useState(false);
 
   useEffect(() => {
-    fetch("/home.json")
+    fetch("/data/home.json")
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Erreur de chargement du fichier JSON:", error));
