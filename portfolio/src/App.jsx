@@ -1,9 +1,11 @@
-import Nav from "../src/components/Nav/index";
+import Header from "../src/components/Header/index";
+import Footer from "../src/components/Footer/index";
 
 const App = () => {
   return (
     <>
-      <Nav />
+      <Header />
+      <Footer />
     </>
   );
 };

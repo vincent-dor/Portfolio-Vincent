@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import Social from "../Social/index";
 
-const Nav = () => {
+const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const darkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -49,4 +49,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Header;
