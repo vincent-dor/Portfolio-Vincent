@@ -3,28 +3,28 @@
     "title": "Kasa",
     "subtitle": "Créez une application web de location immobilière avec React",
     "description": "Créer une application web de location immobilière",
-    "image": "./assets/images/kasa.avif",
+    "image": "images/kasa.avif",
     "link": "https://github.com/vincent-dor/Kasa"
   },
   {
     "title": "Argent Bank",
     "subtitle": "Implémentez le front-end d'une application bancaire avec React",
     "description": "Description détaillée du deuxième élément.",
-    "image": "/assets/images/argentbank.avif",
+    "image": "images/argentbank.avif",
     "link": "https://github.com/vincent-dor/ArgentBank-website"
   },
   {
     "title": "Nina Carducci",
     "subtitle": "Optimisez le référencement d'un site de photographe",
     "description": "Description détaillée du troisième élément.",
-    "image": "/images/nina.avif",
+    "image": "images/nina.avif",
     "link": "https://github.com/vincent-dor/ninacarducci.github.io"
   },
   {
     "title": "Sophie Bluel",
     "subtitle": "Créez une page web dynamique avec JavaScript",
     "description": "Description détaillée du 4élément.",
-    "image": "../assets/images/bluel.avif",
+    "image": "images/bluel.avif",
     "link": "https://github.com/vincent-dor/Portfolio-architecte-sophie-bluel"
   }
 ]
