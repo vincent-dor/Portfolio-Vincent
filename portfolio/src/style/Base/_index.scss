@@ -1,0 +1,49 @@
+html {
+  font-family: inherit;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1rem;
+}
+
+/* Styles pour le mode clair */
+.light-theme {
+  --background-color: white;
+  --secondary-background-color: rgba(236, 231, 231, 0.6);
+  --text-color: black;
+  --hover-color: #7843e9;
+}
+
+/* Styles pour le mode sombre */
+.dark-theme {
+  --background-color: #0f172a;
+  --text-color: white;
+  --hover-color: #5eead4;
+  --secondary-background-color: #06132e;
+  --tertiary-background-color: #1d2944;
+}

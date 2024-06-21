@@ -1,0 +1,15 @@
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  &__icon {
+    color: var(--text-color);
+  }
+  &__icon:hover {
+    color: var(--hover-color);
+  }
+  &__link {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
