@@ -22,14 +22,14 @@ const Header = () => {
 
   return (
     <header className="header" id="Home">
-      <nav className={`nav ${isDarkMode ? "dark-theme" : "light-theme"}`}>
+      <nav className={`nav ${isDarkMode ? "dark-theme" : "light-theme"}`} >
         <a href="#Home" className="nav__brand">
           <span className="nav__title">Vincent Dorée</span>
         </a>
         <Social />
         <ul className="nav__lists">
           <li className="nav__section">
-            <a href="#Home">Home</a>
+            <a href="#Home">Accueil</a>
           </li>
           <li className="nav__section">
             <a href="#Projects">Projets</a>
@@ -40,9 +40,9 @@ const Header = () => {
           <li className="nav__section">
             <a href="#Contact">Contact</a>
           </li>
-          <a href="#" className="nav__dark-mode" onClick={darkMode}>
+          <button type=""className="nav__dark-mode" onClick={darkMode} aria-label="Toggle dark/light mode">
             <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} className="icon" />
-          </a>
+          </button>
         </ul>
       </nav>
     </header>

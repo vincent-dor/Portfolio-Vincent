@@ -4,7 +4,7 @@ const ProjectCard = ({ image, title, subtitle, description, link }) => {
   return (
     <div className="card">
       <a className="card__link" href={link} target="_blank" rel="noopener noreferrer">
-        <img className="card__image" src={image} alt={title} />
+        <img className="card__image" src={image} alt={`Image for ${title}`} />
         <div className="card__content">
           <h3 className="card__title">{title}</h3>
           <h4 className="card__subtitle">{subtitle}</h4>

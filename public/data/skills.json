@@ -11,5 +11,6 @@
   { "name": "GitHub", "icon": "assets/logo/logoGithub.svg", "iconDark": "logo/logoGithub.svg", "link": "https://exemple.com/github" },
   { "name": "Figma", "icon": "assets/logo/logoFigma.svg", "iconDark": "logo/logoFigma.svg", "link": "https://exemple.com/figma" },
   { "name": "Notion", "icon": "assets/logo/logoNotion.svg", "iconDark": "logo/logoNotion.svg", "link": "https://exemple.com/notion" },
-  { "name": "Agile", "icon": "assets/logo/logoAgile.svg", "iconDark": "logo/logoAgile.svg", "link": "https://exemple.com/agile" }
+  { "name": "Agile", "icon": "assets/logo/logoAgile.svg", "iconDark": "logo/logoAgile.svg", "link": "https://exemple.com/agile" },
+  { "name": "VsCode", "icon": "assets/logo/logoVscode.svg", "iconDark": "logo/logoVscode.svg", "link": "https://exemple.com/agile" }
 ]

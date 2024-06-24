@@ -17,20 +17,19 @@
     text-decoration: none;
   }
   &__image {
-    width: 750px;
-    height: 500px;
+    width: 46rem;
     transition: transform 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0.7;
+    object-fit: cover;
   }
   &__content {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-
     color: white;
     padding-top: 100px;
     text-align: center;

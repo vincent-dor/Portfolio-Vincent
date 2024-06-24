@@ -33,19 +33,19 @@ const Contact = () => {
 
   return (
     <section id="Contact" className="contact">
-        <h2>Me contacter:</h2>
+      <h2>Me contacter:</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Name:</label>
-          <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+          <label htmlFor="name">Prénom et nom:</label>
+          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" required />
         </div>
         <div>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" required />
         </div>
         <div>
-          <label>Message:</label>
-          <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} autoComplete="message" required />
         </div>
         <button type="submit">Send</button>
         {status && <p>{status}</p>}
