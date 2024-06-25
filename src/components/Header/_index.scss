@@ -19,10 +19,17 @@
     display: none;
   }
 
+  &__image {
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 5px;
+  }
   &__brand {
     text-decoration: none;
     color: var(--text-color);
     padding-right: 10rem;
+    display: flex;
+    align-items: center;
   }
 
   &__lists {
@@ -102,6 +109,8 @@
         background-color: var(--background-color);
         border: solid 1px var(--text-color);
         color: var(--text-color);
+        font-size: 1.5rem;
+        margin-top: 10px;
       }
       &__lists {
         opacity: 0;

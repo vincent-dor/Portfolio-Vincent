@@ -32,16 +32,14 @@ const Home = () => {
   }
 
   return (
-    <section className="home" id="Home">
+    <section className="home">
       <div className="home__container">
         <div className="home__title">
           <h1>Développeur</h1>
-          <span className={`home__transition ${isSlidingOut ? "slide-out" : ""}`}>
-            {data.titres[index]}
-          </span>
+          <span className={`home__transition ${isSlidingOut ? "slide-out" : ""}`}>{data.titres[index]}</span>
         </div>
         <div className="home__content">
-          <p>{data.description}</p>
+          <p className="home__description">{data.description}</p>
         </div>
       </div>
     </section>

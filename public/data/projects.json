@@ -2,28 +2,28 @@
   {
     "title": "Kasa",
     "subtitle": "Créez une application web de location immobilière avec React",
-    "description": "Créer une application web de location immobilière",
+    "description": "Ce projet a pour but de créer une application web en utlisant React et Sass. Les objectifs sont d'utiliser le React Router, utiliser les composants React et d'utiliser le Sass.",
     "image": "assets/images/kasa.avif",
     "link": "https://github.com/vincent-dor/Kasa"
   },
   {
     "title": "Argent Bank",
     "subtitle": "Implémentez le front-end d'une application bancaire avec React",
-    "description": "Description détaillée du deuxième élément.",
+    "description": "Ce projet a pour but de développer le front-end, en utilisant React, Redux et Sass pour créer une expérience dynamique à partir d'un site statique.",
     "image": "assets/images/argentbank.avif",
     "link": "https://github.com/vincent-dor/ArgentBank-website"
   },
   {
     "title": "Nina Carducci",
     "subtitle": "Optimisez le référencement d'un site de photographe",
-    "description": "Description détaillée du troisième élément.",
+    "description": "Ce projet a pour but d'optimiser le référencement d'un site, en utilisant Lighthouse et de corriger divers erreurs grâce à l'extension Wave ainsi qu'à l'ajout de référencement local",
     "image": "assets/images/nina.avif",
     "link": "https://github.com/vincent-dor/ninacarducci.github.io"
   },
   {
     "title": "Sophie Bluel",
     "subtitle": "Créez une page web dynamique avec JavaScript",
-    "description": "Description détaillée du 4élément.",
+    "description": "Ce projet a pour but de créer une page web dynamique, en utilisant JavaScript et en communiquant avec une API. Les objectifs sont de gérer les évènements, manipuler les éléments du DOM et de récupérer les données utilisateurs via les formulaires.",
     "image": "assets/images/bluel.avif",
     "link": "https://github.com/vincent-dor/Portfolio-architecte-sophie-bluel"
   }

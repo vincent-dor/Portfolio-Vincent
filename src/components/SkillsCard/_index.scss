@@ -35,3 +35,10 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 700px) {
+  .cardSkill {
+    width: 70px;
+    height: 70px;
+  }
+}
