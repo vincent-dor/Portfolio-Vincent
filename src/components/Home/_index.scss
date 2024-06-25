@@ -27,7 +27,7 @@
   }
   &__background-image {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     width: 900px;
     height: 900px;
@@ -91,12 +91,13 @@
   .home {
     &__container {
       height: 600px;
-      &::before {
-        width: 600px;
-      }
     }
     &__description {
       margin: 0 15rem;
+    }
+    &__background-image {
+      width: 600px;
+      height: 600px;
     }
   }
 
@@ -126,9 +127,10 @@
       }
       &__container {
         height: 450px;
-        &::before {
-          width: 400px;
-        }
+      }
+      &__background-image {
+        width: 400px;
+        height: 400px;
       }
     }
   }
