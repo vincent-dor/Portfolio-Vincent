@@ -51,10 +51,6 @@
   }
 }
 
-.card:hover .card__image {
-  transform: scale(1.05);
-}
-
 body.light-theme .card__image {
   opacity: 0.8;
 }
