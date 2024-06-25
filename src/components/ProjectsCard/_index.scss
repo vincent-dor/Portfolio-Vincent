@@ -18,7 +18,7 @@
   }
   &__image {
     width: 100%;
-    height: 100%;
+    height: 30rem;
     transition: transform 0.3s ease;
     object-fit: cover;
   }
@@ -64,6 +64,9 @@ body.dark-theme .card__image {
     height: 22rem;
     &__content {
       padding-top: 20px;
+    }
+    &__image {
+      height: 22rem;
     }
   }
   @media screen and (max-width: 1250px) {
