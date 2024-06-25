@@ -27,13 +27,10 @@ const Home = () => {
     }
   }, [data.titres]);
 
-  if (data.titres.length === 0) {
-    return <div>Chargement...</div>;
-  }
-
   return (
     <section className="home">
       <div className="home__container">
+        <img src="./assets/images/ordinateur.avif" alt="Ordinateur" className="home__background-image" />
         <div className="home__title">
           <h1>Développeur</h1>
           <span className={`home__transition ${isSlidingOut ? "slide-out" : ""}`}>{data.titres[index]}</span>

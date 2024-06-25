@@ -22,6 +22,9 @@
     transition: transform 0.3s ease;
     object-fit: cover;
   }
+  &:hover &__image {
+    transform: scale(1.05);
+  }
   &__content {
     position: absolute;
     top: 0;

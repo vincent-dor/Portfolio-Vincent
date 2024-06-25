@@ -18,28 +18,23 @@
     height: 800px;
     overflow: hidden;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      width: 900px;
-      height: 900px;
-      background-image: url("/assets/images/ordinateur.avif");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      opacity: 0.5;
-      z-index: -1;
-      transform: translate(-50%, -50%);
-    }
-
     h1 {
       position: relative;
       text-align: center;
       margin-top: 100px;
       margin-bottom: 10px;
     }
+  }
+  &__background-image {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    object-fit: contain;
+    opacity: 0.5;
+    z-index: -1;
+    transform: translate(-50%, -50%);
   }
 
   &__transition {
