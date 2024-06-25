@@ -47,3 +47,45 @@ p {
   --secondary-background-color: #06132e;
   --tertiary-background-color: #1d2944;
 }
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

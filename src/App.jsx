@@ -4,6 +4,7 @@ import Projects from "../src/components/Projects/index";
 import Skills from "../src/components/Skills/index";
 import Contact from "../src/components/Contact/index";
 import Footer from "../src/components/Footer/index";
+import ScrollToTop from "./components/ScrollUp/index";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Skills />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </>
   );
 };

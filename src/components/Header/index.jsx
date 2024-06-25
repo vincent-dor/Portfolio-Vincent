@@ -5,8 +5,17 @@ import Social from "../Social/index";
 
 const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const darkMode = () => {
     setIsDarkMode(!isDarkMode);
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
   };
 
   useEffect(() => {
@@ -21,28 +30,41 @@ const Header = () => {
   }, [isDarkMode]);
 
   return (
-    <header className="header" id="Home">
-      <nav className={`nav ${isDarkMode ? "dark-theme" : "light-theme"}`} >
+    <header className="header">
+      <nav className={`nav ${isDarkMode ? "dark-theme" : "light-theme"}`}>
         <a href="#Home" className="nav__brand">
           <span className="nav__title">Vincent Dorée</span>
         </a>
         <Social />
-        <ul className="nav__lists">
+        <button className="nav__mobile" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
+          Menu
+        </button>
+        <ul className={`nav__lists ${isMobileMenuOpen ? "open" : ""}`}>
           <li className="nav__section">
-            <a href="#Home">Accueil</a>
+            <a href="#Home" onClick={closeMobileMenu}>
+              Accueil{" "}
+            </a>
           </li>
           <li className="nav__section">
-            <a href="#Projects">Projets</a>
+            <a href="#Projects" onClick={closeMobileMenu}>
+              Projets{" "}
+            </a>
           </li>
           <li className="nav__section">
-            <a href="#Competence">Compétences</a>
+            <a href="#Competence" onClick={closeMobileMenu}>
+              Compétences
+            </a>
           </li>
           <li className="nav__section">
-            <a href="#Contact">Contact</a>
+            <a href="#Contact" onClick={closeMobileMenu}>
+              Contact
+            </a>
           </li>
-          <button type=""className="nav__dark-mode" onClick={darkMode} aria-label="Toggle dark/light mode">
-            <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} className="icon" />
-          </button>
+          <li className="nav__section">
+            <button type="" className="nav__dark-mode" onClick={darkMode} aria-label="Toggle dark/light mode">
+              <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} className="icon" />
+            </button>
+          </li>
         </ul>
       </nav>
     </header>

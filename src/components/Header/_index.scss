@@ -15,6 +15,10 @@
   font-size: 1.2rem;
   font-weight: 600;
 
+  &__mobile {
+    display: none;
+  }
+
   &__brand {
     text-decoration: none;
     color: var(--text-color);
@@ -67,6 +71,51 @@
     }
     &:hover {
       color: var(--hover-color);
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .nav {
+    flex-direction: column;
+    &__brand {
+      padding-right: 0;
+      margin-bottom: 1rem;
+    }
+    &__lists {
+      margin-top: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    .nav {
+      &__section {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .nav {
+      &__mobile {
+        display: flex;
+        background-color: var(--background-color);
+        border: solid 1px var(--text-color);
+        color: var(--text-color);
+      }
+      &__lists {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: opacity 0.5s ease, height 0.3s ease;
+      }
+      &__lists.open {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        opacity: 1;
+        height: auto;
+      }
     }
   }
 }

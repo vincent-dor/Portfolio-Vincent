@@ -32,7 +32,7 @@ const Home = () => {
   }
 
   return (
-    <section>
+    <section className="home" id="Home">
       <div className="home__container">
         <div className="home__title">
           <h1>Développeur</h1>

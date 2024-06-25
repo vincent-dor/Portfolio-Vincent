@@ -1,0 +1,26 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: -50px; /* Initially off-screen */
+    right: 20px;
+    z-index: 1000;
+    transition: bottom 0.3s ease; /* Smooth transition for moving up */
+  }
+  
+  .scroll-to-top.show {
+    bottom: 20px; /* Show at 20px from bottom when visible */
+  }
+  
+  .scroll-to-top button {
+    font-size: 1.2rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-to-top button:hover {
+    background-color: var(--hover-color);
+  }

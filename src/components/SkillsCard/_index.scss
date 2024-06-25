@@ -12,7 +12,6 @@
     position: relative;
     z-index: 1;
     border: 1px solid var(--text-color);
-    background-color: var(--tertiary-background-color);
   }
   &__title {
     position: absolute;
@@ -30,6 +29,7 @@
 
 .cardSkill:hover {
   transform: scale(1.05);
+  background-color: var(--hover-color);
   .cardSkill__title {
     opacity: 1;
     transform: translateY(0);
