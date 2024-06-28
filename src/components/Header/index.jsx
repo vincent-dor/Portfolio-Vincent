@@ -33,7 +33,7 @@ const Header = () => {
     <header className="header" id="Home">
       <nav className={`nav ${isDarkMode ? "dark-theme" : "light-theme"}`}>
         <a href="#" className="nav__brand">
-          <img src="./assets/images/moi.avif" className="nav__image" alt="image of me" />
+          <img src="./assets/images/moi.avif" className="nav__image" alt="Photo de Vincent Dorée" />
           <span className="nav__title">Vincent Dorée</span>
         </a>
         <Social />

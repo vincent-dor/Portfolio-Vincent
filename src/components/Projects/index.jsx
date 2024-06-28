@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <section className="projects" id="Projects">
       <h2>Mes Projets</h2>
-      <p className="projects__description">Voici quelques projets que j&apos;ai réalisés.</p>
+      <p className="projects__description">Je vous présente quelques projets que j&apos;ai accomplis.</p>
       <div className="projects__list">
         {projects.map((project, index) => (
           <ProjectCard key={index} image={project.image} title={project.title} subtitle={project.subtitle} description={project.description} link={project.link} />

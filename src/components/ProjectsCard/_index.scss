@@ -18,12 +18,13 @@
   }
   &__image {
     width: 100%;
-    height: 30rem;
+    height: 100%;
     transition: transform 0.3s ease;
-    object-fit: cover;
+    object-fit: fill;
   }
   &:hover &__image {
     transform: scale(1.05);
+    opacity: 0.4;
   }
   &__content {
     position: absolute;
@@ -52,14 +53,6 @@
   &__description {
     margin-top: 10px;
   }
-}
-
-body.light-theme .card__image {
-  opacity: 0.8;
-}
-
-body.dark-theme .card__image {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 1560px) {
